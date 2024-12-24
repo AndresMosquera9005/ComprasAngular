@@ -13,11 +13,16 @@ export class HeaderComponent {
   constructor(private router: Router) {}
 
   irInicio(){
-    this.router.navigate([""])
+    this.router.navigate(["body"])
   }
   
-
   irProductos() {
     this.router.navigate(["producto"])
   }
+
+  ircarritocompras(){
+    this.router.navigate(["compras"])
+  }
+
+
 }
