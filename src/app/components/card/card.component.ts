@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, NgModule } from '@angular/core';
+import { MatCardModule } from '@angular/material/card';
 
 // @Component({
 //   selector: 'app-card',
@@ -10,7 +11,6 @@ import { Component, Input } from '@angular/core';
 // export class CardComponent {
 
 // }
-//import { Component, Input } from '@angular/core';
 
 interface Product {
   name: string;
@@ -27,3 +27,13 @@ interface Product {
 export class ProductCardComponent {
   @Input() product: Product | undefined;
 }
+
+@NgModule({
+  
+  imports: [
+
+    MatCardModule
+  ]
+  
+})
+export class AppModule { }

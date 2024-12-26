@@ -1,0 +1,30 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.divDos {
+    text-align: center;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+#lista_pedido {
+    list-style: none;
+    padding: 0;
+}
+
+#lista_pedido li {
+    margin: 10px 0;
+}
+
+#resultado {
+    font-weight: bold;
+    color: #333;
+}
