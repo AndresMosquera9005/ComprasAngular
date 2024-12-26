@@ -1,3 +1,7 @@
+:host {
+    --color_a_hover: #007bff
+}
+
 header {
 
     background-color: #f2f2f2; 
@@ -26,4 +30,8 @@ nav a {
 
 nav a:hover {
     color: #007bff;
+}
+
+boton {
+    border: none
 }
